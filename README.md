@@ -1,11 +1,11 @@
-# homebrew-cask-aereal
+# homebrew-aereal_casks
 
 My alternative Casks.
 
 ## Usage
 
 ```
-brew tap aereal/cask-aereal
+brew tap aereal/homebrew-aereal_casks
 ```
 
 ## See Also

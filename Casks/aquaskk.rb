@@ -1,8 +1,9 @@
 class Aquaskk < Cask
-  url 'http://jaist.dl.sourceforge.jp/aquaskk/58814/AquaSKK-4.2.dmg'
-  homepage 'http://aquaskk.sourceforge.jp/'
-  version '4.2'
-  sha1 '6a7110daea819acd7650499a009c0e41fd882355'
-  install 'AquaSKK.pkg'
+  url 'https://github.com/codefirst/aquaskk/releases/download/4.2.1/AquaSKK-4.2.1.dmg'
+  homepage 'https://github.com/codefirst/aquaskk'
+  version '4.2.1'
+  sha256 '9b3b3801e251dc23aeb5aab38762086c3cd9e220d26226263f5ba7de696596ed'
+  license :gpl # GPL v2
+  pkg 'AquaSKK.pkg'
   uninstall :pkgutil => 'jp.surceforge.inputmethod.aquaskk.pkg'
 end

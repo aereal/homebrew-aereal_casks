@@ -1,4 +1,4 @@
-class Aquaskk < Cask
+cask :v1 => 'aquaskk' do
   url 'https://github.com/codefirst/aquaskk/releases/download/4.2.1/AquaSKK-4.2.1.dmg'
   homepage 'https://github.com/codefirst/aquaskk'
   version '4.2.1'

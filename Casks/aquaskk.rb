@@ -1,8 +1,9 @@
 cask :v1 => 'aquaskk' do
-  url 'https://github.com/codefirst/aquaskk/releases/download/4.2.1/AquaSKK-4.2.1.dmg'
+  version '4.2.3'
+  url "https://github.com/codefirst/aquaskk/releases/download/#{version}/AquaSKK-#{version}.dmg"
+  name 'AquaSKK'
   homepage 'https://github.com/codefirst/aquaskk'
-  version '4.2.1'
-  sha256 '9b3b3801e251dc23aeb5aab38762086c3cd9e220d26226263f5ba7de696596ed'
+  sha256 'e8c1cd7a37a280c82ca60d6a073ec409d04c4134cbf5b8b51f7d9c83ba66d34d'
   license :gpl # GPL v2
   pkg 'AquaSKK.pkg'
   uninstall :pkgutil => 'jp.surceforge.inputmethod.aquaskk.pkg'

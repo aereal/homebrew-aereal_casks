@@ -6,5 +6,5 @@ cask :v1 => 'aquaskk' do
   sha256 'e8c1cd7a37a280c82ca60d6a073ec409d04c4134cbf5b8b51f7d9c83ba66d34d'
   license :gpl # GPL v2
   pkg 'AquaSKK.pkg'
-  uninstall :pkgutil => 'jp.surceforge.inputmethod.aquaskk.pkg'
+  uninstall :pkgutil => 'jp.sourceforge.inputmethod.aquaskk.pkg'
 end

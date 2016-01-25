@@ -1,4 +1,4 @@
-cask :v1 => 'font-mensch' do
+cask 'font-mensch' do
   version '2.0'
   sha256 'ee174aee776b3b34762e6792d4cd470e86e13a504de247dc35de9835924d932f'
 
